@@ -69,6 +69,8 @@ GEM
     omniauth (1.2.1)
       hashie (>= 1.2, < 3)
       rack (~> 1.0)
+    omniauth-linkedin (0.2.0)
+      omniauth-oauth (~> 1.0)
     omniauth-oauth (1.0.1)
       oauth
       omniauth (~> 1.0)
@@ -139,6 +141,7 @@ DEPENDENCIES
   devise
   jquery-rails
   omniauth
+  omniauth-linkedin
   omniauth-twitter
   rails (= 3.2.6)
   sass-rails (~> 3.2.3)
